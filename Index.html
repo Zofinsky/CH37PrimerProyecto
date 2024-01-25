@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Este es para agregar caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/sitio-web.png" type="image/x-icon">
+    <title>Mi primer HTML</title>
+    <style>
+        section{
+            background-color: gold;
+        }
+        .ordenada{
+            background-color: aqua;
+        }
+        #desordenada{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generation</h1>
+    <h2>Generation</h2>
+    <h3>Generation</h3>
+    <h4>Generation</h4>
+    <h5>GENERATION</h5>
+    <h6>Generation</h6>
+    <strong>Generation</strong>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias incidunt non quia, inventore vel officiis id ab possimus a eaque vitae quis numquam tenetur rem repellendus officia ullam voluptates maxime.</p>
+     <p>Hola me veo en negritas <br/><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci numquam possimus corrupti nam ad sequi amet praesentium quibusdam explicabo magnam maxime totam, debitis a quo ipsam, asperiores consectetur nemo quia!</strong></p>
+     <p></p>
+     <p></p> 
+     <h1>Formatos fisicos</h1>
+        <b>negrita</b>
+        <i>Cursiva</i>
+        <u>Subraya</u>
+        <strike>tachado</strike>
+        <big>grande</big>
+        <small>pequeño</small>
+        <sup>superindice</sup>
+        <sub>subindice</sub>
+        <p>1 <sup>2</sup></p>
+    
+        <h2>formatos logicos</h2>
+
+    <cite>citar</cite>
+    <code><h2>soy un titulo</h2></code>
+    <dfn>Definir</dfn>
+    <em>enfasis</em>
+    <key>Palabra clave</key>
+    <samp>Ejemplos</samp>
+    <kbd>Usuario</kbd>
+    <var>Variables</var>
+
+    <strong><i>Cursiva</i></strong>
+    <strong><i>cursiva</strong></i>
+    <hr>-->
+
+     <header>
+        <nav>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+            <a href="./formulario.html">Contacto</a>
+        </nav>
+     </header>
+     <section>
+        <img src="./src/img/Gatito1.jfif" alt="Gatito yo" width="200px" height="100px">
+        <img src="./src/img/Gatito2.jfif" alt="Gatito amoroso" width="300" height="200">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAtSlf1LjXZDCFYCcv5KdJvkLKNPU-Et1XIw&usqp=CAU" alt="Gatito antifaz" width="500" height="400">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4497158848867!2d-99.15266369999999!3d19.4361681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f99c5072cced%3A0x42f387a1de967257!2sARANGO%20Cocina%20de%20Ra%C3%ADces!5e0!3m2!1sen!2smx!4v1705960968844!5m2!1sen!2smx"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="https://www.youtube.com/embed/jEX4FgPgK38?si=gt28I0K_R9Z4dhkw">Video de youtube</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jEX4FgPgK38?si=gt28I0K_R9Z4dhkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h1>listas ordenadas</h1>
+        <div class="ordenada">
+            <ol>
+                <li>Manzana</li>
+                <li>Leche</li>
+                <li>Huevo</li>
+                <li>Azucar</li>
+            </ol>
+        </div>
+        <h1>listas desordenadas</h1>
+        <div id="desordenada">
+            <ul>
+                <li>flores</li>
+                <li>listones</li>
+                <li>pegamento</li>
+                <li>diamantina</li>
+            </ul>
+        </div>
+        <div class="ordenada">
+            <ul>
+            <li>Lunes</li>
+            <li>martes</li>
+            <li>miercoles</li>
+            <li>Jueves</li>
+            <li>viernes</li>
+            </ul>
+        </div>
+     </section>
+     <aside>
+        <dl> <!--Lista de descripción-->
+           <dt>Elemento 1</dt> <!--precedente de un termino -->
+           <dt>Elemento 2</dt>
+           <dt> Elemento 3</dt> 
+           <dd>El elemento 3 <span>hola</span> me lleva a otra página</dd> <!--Detalles de la definicón anterior-->
+        </dl>
+     </aside>
+     <article>
+        <h1>Tablas</h1>
+        <table>
+            <thead> <!--Encabezado de una tabla-->
+                <tr> <!--Filas del encabezado-->
+                    <th>Vehículo</th> <!--Columnas del encabezado-->
+                    <th>Precio</th>
+                    <th>Velocidad</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BOCHITO</td>
+                    <td>$10,000</td>
+                    <td>80km/h</td>
+                    <td>Rojo</td>
+                </tr>
+                <tr>
+                    <td>Tesla</td>
+                    <td>$1,200,000</td>
+                    <td>250km/h</td>
+                    <td>Blanco</td>
+                </tr>
+            </tbody>
+        </table>
+     </article>
+     <section>
+        <table border="1">
+            <caption>Esto es una tabla con bordes</caption>
+            <tr>
+                <td rowspan="2" colspan="2" >Celdas a1, a2, b1 y b2 unidas</td>
+                <td>Celda c1</td>
+            </tr>
+            <tr> 
+                <td>Celda c2</td>
+            </tr>
+            <tr>
+                <td>Celda a3</td>
+                <td>Celda b3</td>
+                <td>Celda c3</td>
+            </tr>
+        </table>
+     </section>
+     <footer>
+       <h1>Síguenos en redes sociales</h1>
+       <a href="https://www.facebook.com/?locale=es_LA"> <img src="./src/img/facebook.png" alt="" width="100px" height="100px"></a>
+     </footer>
+</body>
+</html>
